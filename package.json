@@ -1,0 +1,20 @@
+{
+  "name": "pharmaceutical-feedback-system",
+  "version": "1.0.0",
+  "description": "Multi-agent AI system for evaluating pharmaceutical influencer scripts",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/agent-tests.js",
+    "start": "node index.js",
+    "evaluate": "node evaluate.js"
+  },
+  "keywords": ["ai", "agents", "pharmaceutical", "feedback", "quality-check"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}

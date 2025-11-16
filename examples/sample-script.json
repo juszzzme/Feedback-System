@@ -1,0 +1,17 @@
+{
+  "product": "DermaFlow Pro - Eczema Treatment",
+  "rawScript": "Hey everyone! Do you suffer from that gross, itchy condition that makes you look disgusting? Yeah, I'm talking about eczema—it's the worst. Well, jokes on you because we have the solution! DermaFlow Pro is the miracle product you've been waiting for. Just slap it on and boom, your skin problems are gone. Don't be a loser and suffer anymore. Try DermaFlow Pro today and actually have a life worth living!",
+  "rules": {
+    "threshold": {
+      "comfort": 7,
+      "empathy": 8,
+      "humor": 7
+    },
+    "forbiddenTones": [
+      "dismissive",
+      "condescending",
+      "insensitive",
+      "mocking"
+    ]
+  }
+}

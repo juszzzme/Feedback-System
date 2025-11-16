@@ -1,0 +1,35 @@
+{
+  "status": "NEEDS_REVISION",
+  "scores": {
+    "comfort": 8,
+    "empathy": 8,
+    "humor": 6
+  },
+  "thresholds": {
+    "comfort": 7,
+    "empathy": 8,
+    "humor": 7
+  },
+  "evaluations": {
+    "comfort": {
+      "comfort_score": 8,
+      "most_uncomfortable_line": "gross",
+      "replacement_line": "challenging",
+      "reasoning": "Reduced comfort due to potentially embarrassing language or tone. The phrase \"gross\" may make users self-conscious about their condition. A gentler, more affirming approach maintains the message while respecting user dignity."
+    },
+    "empathy": {
+      "empathy_score": 8,
+      "edit_1": "Replace a technical statement with empathetic framing. For example, change \"This product treats the condition\" to \"This product helps you manage your condition with confidence and comfort.\"",
+      "edit_2": "Add validation: Instead of focusing only on product features, include \"Your experience matters, and we've designed this with your real-world needs in mind.\"",
+      "reasoning": "These edits transform the script from transactional to relational. By acknowledging the user's emotional experience and emphasizing community and support, we create a deeper connection. Users feel understood rather than lectured to, which builds trust and loyalty."
+    },
+    "humor": {
+      "humor_score": 6,
+      "problematic_humor": "gross, itchy condition",
+      "alternative_punchline": "let's be real about it, itchy condition",
+      "reasoning": "The phrase \"gross, itchy condition\" uses humor that may offend or demean users. In pharmaceutical contexts, humor should unite rather than divide, comfort rather than mock."
+    }
+  },
+  "refinedScript": "Hey everyone! Do you suffer from that challenging, itchy condition that makes you look disgusting? Yeah, I'm talking about eczema—it's the worst. Well, jokes on you because we have the solution! DermaFlow Pro is the miracle product you've been waiting for. Just slap it on and boom, your skin problems are gone. Don't be a loser and suffer anymore. Try DermaFlow Pro today and actually have a life worth living!",
+  "summary": "Humor score (6/10) below threshold (7/10). Adjust humor to be more appropriate for pharmaceutical context."
+}
